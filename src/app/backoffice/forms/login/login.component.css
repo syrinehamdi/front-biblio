@@ -1,0 +1,29 @@
+.logo {
+  font-family: "Wolvertton Signature", sans-serif;
+  word-spacing: 15px;
+  font-size: 70px;
+  font-weight: 500 !important;
+  color: #103025;
+  text-shadow: 2px 2px white;
+}
+.card {
+  background-color: rgba(16, 48, 37, 0.8);
+  color: white;
+}
+img {
+  object-fit: cover;
+  left: 0 !important;
+  right: 0 !important;
+  opacity: 0.5;
+  margin-left: auto;
+  margin-right: auto;
+}
+.beige {
+  background-color: #b6aeab  !important;
+}
+.beige-text {
+  color: #b6aeab  !important;
+}
+.bi{
+  color:#103025
+}

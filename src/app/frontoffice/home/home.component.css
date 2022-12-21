@@ -1,0 +1,143 @@
+/** Search Bar CSS */
+.section-0 {
+  font-family: "Poppins", sans-serif;
+}
+.section-0 h1 {
+  font-size: 70px !important;
+  text-align: center;
+}
+.section-0 h2 {
+  text-align: center;
+  font-weight: 100 !important;
+  font-size: 50px !important;
+}
+h2 fa-icon {
+  font-size: 30px !important;
+}
+p {
+  font-size: 16px;
+  text-align: center;
+}
+.input-group {
+  width: 60% !important;
+  padding: 15px 0;
+}
+input:focus {
+  border: 1px solid #718878 !important;
+  box-shadow: inset 0 -2px 0 #718878 !important;
+}
+.btn-outline-green {
+  color: #718878 !important;
+  background-color: transparent;
+  background-image: none;
+  border-color: #718878 !important;
+}
+.btn-outline-green:hover {
+  background-color: #718878 !important;
+  color: white !important;
+}
+
+/** Recommanded section CSS */
+.section-1 {
+  z-index: -1;
+  margin-top: -20px;
+  background-color: rgba(196, 208, 206, 0.5);
+}
+.recommanded {
+  display: flex;
+  background-color: #718878;
+  width: max-content;
+  z-index: 1000;
+  position: relative;
+  padding: 3px 35px;
+  color: white;
+}
+.recommanded h4 {
+  font-size: 14px !important;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: 1.8;
+  margin-bottom: 0 !important;
+  font-weight: 500 !important;
+}
+.recommanded h4 i {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+/** Book recommanded CSS */
+img {
+  object-fit: cover;
+}
+.img-area {
+  text-align: center;
+  position: relative;
+}
+.img-area {
+  width: 100%;
+  height: auto;
+}
+.img-text,
+.img-area:after {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+}
+.img-area:after {
+  content: "";
+  height: 100%;
+  top: 0;
+  transition: 0.5s;
+}
+.img-area:hover:after {
+  background: linear-gradient(
+    to bottom,
+    rgba(16, 48, 37, 0.01) 0,
+    rgba(16, 48, 37, 0.25) 25%,
+    rgba(16, 48, 37, 0.75) 75%,
+    rgba(16, 48, 37, 255) 100%
+  );
+}
+.img-text {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: transparent;
+  bottom: 0;
+  z-index: 1;
+  transform: translateY(145px);
+  transition: all 0.5s cubic-bezier(0.13, 0.62, 0.81, 0.91) 0s;
+}
+.img-text h3 {
+  font-size: 16px;
+  font-weight: 600 !important;
+}
+.img-text h5 {
+  font-size: 14px;
+  font-weight: 100 !important;
+}
+.img-area:hover .img-text {
+  color: white;
+  transform: translateY(0);
+}
+
+/** */
+.domaine {
+  display: flex;
+  padding: 3px 35px;
+}
+.domaine h4 {
+  font-size: 14px !important;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: #103025;
+  letter-spacing: 0.2em;
+  line-height: 1.8;
+  margin-bottom: 0 !important;
+  font-weight: 500 !important;
+}
+.domaine h4 fa-icon {
+  font-size: 20px;
+  margin-right: 8px;
+}

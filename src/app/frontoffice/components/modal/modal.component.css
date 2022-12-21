@@ -1,0 +1,14 @@
+/** Login modal CSS */
+.container-fluid .row h1 {
+  font-size: 55px !important;
+  font-weight: 100 !important;
+  color: #103025;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 30px;
+}
+.container-fluid .row a {
+  margin-left: 20px;
+}
+.container-fluid .row a:hover {
+  transform: translateY(-5px);
+}
